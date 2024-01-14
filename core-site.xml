@@ -1,0 +1,4 @@
+<property>
+<name>fs.default.name</name>
+<value>hdfs://192.168.122.23:9000</value>
+</property>
