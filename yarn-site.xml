@@ -7,10 +7,10 @@
 <property>
 <description>The hostname of the RM.</description>
 <name>yarn.resourcemanager.hostname</name>
-<value>localhost</value>
+<value>192.168.122.23</value>
 </property>
 <property>
 <description>The address of the applications manager interface in the RM.</description>
 <name>yarn.resourcemanager.address</name>
-<value>{yarn.resourcemanager.hostname}:8032</value>
+<value>192.168.122.23:8032</value>
 </property>
