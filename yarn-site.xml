@@ -1,0 +1,16 @@
+<property>
+<name>yarn.nodemanager.aux-services</name> <value>mapreduce_shuffle</value>
+</property>
+<property>
+<name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name> <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+</property>
+<property>
+<description>The hostname of the RM.</description>
+<name>yarn.resourcemanager.hostname</name>
+<value>localhost</value>
+</property>
+<property>
+<description>The address of the applications manager interface in the RM.</description>
+<name>yarn.resourcemanager.address</name>
+<value>{yarn.resourcemanager.hostname}:8032</value>
+</property>
