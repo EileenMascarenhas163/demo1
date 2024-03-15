@@ -468,3 +468,31 @@ The `thread.actions.ts` file contains functions related to thread management, in
 
 ```typescript
 // Write the content of thread.actions.ts here
+-------------------------------------------------------------
+# Threads Application UML Overview
+
+
+## Classes
+
+### User
+Represents a user of the application. Users can create multiple threads and belong to multiple communities.
+
+### Thread
+Represents a discussion thread in the application. Threads are authored by users and can belong to communities.
+
+### Community
+Represents a community within the application. Communities have multiple members (users) and threads.
+
+### Params
+Represents the parameters used in various functions, such as creating threads or updating user profiles.
+
+### Query
+Represents the query parameters used for fetching users, including search string, pagination details, and sort order.
+
+## Relationships
+
+- A User can have multiple Threads and belong to multiple Communities.
+- A Community can have multiple Threads.
+- Each Thread is authored by a User and may belong to a Community.
+
+This diagram serves as a high-level overview of the main components and their relationships within the "Threads" application.
