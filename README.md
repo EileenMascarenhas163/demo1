@@ -496,3 +496,72 @@ Represents the query parameters used for fetching users, including search string
 - Each Thread is authored by a User and may belong to a Community.
 
 This diagram serves as a high-level overview of the main components and their relationships within the "Threads" application.
+
+
+-------------------------------------------------------------------------------
+# Threads Application Use Cases
+
+Below are some potential use cases for the "Threads" application:
+
+1. **User Registration**:
+   - Actors: User
+   - Description: Users can register for an account on the platform by providing necessary details such as username, email, and password.
+
+2. **User Login**:
+   - Actors: User
+   - Description: Registered users can log in to their accounts using their credentials (username/email and password).
+
+3. **Create Post**:
+   - Actors: User
+   - Description: Authenticated users can create new discussion posts either within a specific community or as standalone posts.
+
+4. **View Posts**:
+   - Actors: User
+   - Description: Users can view existing discussion posts sorted by various criteria, such as recent activity, popularity, or community.
+
+5. **Comment on Post**:
+   - Actors: User
+   - Description: Users can comment on existing discussion posts to contribute to the ongoing conversation or ask questions.
+
+6. **Delete Post**:
+   - Actors: User (Post Owner/Admin)
+   - Description: Post owners or administrators can delete posts they created or posts within communities they manage.
+
+7. **Edit Post**:
+   - Actors: User (Post Owner/Admin)
+   - Description: Post owners or administrators can edit the content of posts they created to update information or correct mistakes.
+
+8. **Join Community**:
+   - Actors: User
+   - Description: Users can join existing communities to participate in discussions related to specific topics or interests.
+
+9. **Leave Community**:
+   - Actors: User
+   - Description: Users can leave communities they have previously joined if they no longer wish to be part of the community.
+
+10. **Search Posts**:
+    - Actors: User
+    - Description: Users can search for specific posts or topics using keywords to find relevant discussions.
+
+11. **Filter Posts**:
+    - Actors: User
+    - Description: Users can filter posts based on various criteria such as community, author, date, or popularity.
+
+12. **View User Profile**:
+    - Actors: User
+    - Description: Users can view profiles of other users to see their activity, posts they've created, and communities they're part of.
+
+13. **Edit User Profile**:
+    - Actors: User
+    - Description: Users can edit their own profiles to update personal information, such as username, bio, or profile picture.
+
+14. **Fetch User Activity**:
+    - Actors: User
+    - Description: Users can view their own activity feed, which includes posts they've created, comments they've made, and replies they've received.
+
+15. **Moderate Community**:
+    - Actors: Community Moderator/Administrator
+    - Description: Community moderators or administrators can manage posts within their communities, including moderating comments, deleting inappropriate content, and enforcing community guidelines.
+
+These are just a few examples of potential use cases for the "Threads" application. Depending on the specific requirements and features of the application, additional use cases may be identified and defined.
+
